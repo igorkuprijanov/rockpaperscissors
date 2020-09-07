@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <title>Rock Paper Scissors Game</title>
+    </head>
+    
+<body>
+    <div id="topdrawer"></div>
+    <div id="computerimage"></div>
+    <header>Rock Paper Scissors!</header>
+    <div class="score-board" >
+        <div class = "lable" id="user_lable">You</div>
+        <div class="lable" id="computer_lable">Computer</div>
+        <span id="user_score">0</span>:<span id="computer_score">0</span>
+    </div>
+    <div class="result">
+    <p>Choose your move.</p>
+    <div id="resultanimation" class="animate__animated"><h1 id="resultTxt">YOU WIN</h1></div>
+    </div>
+    <div class="choices">
+    <div class="choice">
+    <img id="r" src="rock.png" alt="Rock picture">
+    </div>
+    <div class="choice">
+    <img id="p" src ="paper.png" alt="Paper picture">
+    </div>
+    <div class="choice">
+    <img id="s" src="scissors.png" alt= "Scissors picture">
+    </div>
+        </div>
+    <div class="message">
+    <p>Make your move!</p>
+    </div>
+    <div id="playerimage"></div>
+    <div id="bottomdrawer"></div>
+    <script src="app.js" charset="utf-8"></script>
+    </body>
+    
+</html>
